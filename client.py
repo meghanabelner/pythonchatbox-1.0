@@ -2,7 +2,7 @@ import socket
 import sys
 import time
 
-s=socket.socket()
+s=socket.socket()//xxx
 host=input(str("Please enter the hostname of the server : "))
 port=8080
 s.connect((host,port))
